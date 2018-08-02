@@ -1,0 +1,62 @@
+		//Subindo o primeiro projeto com STS, no github
+		//git init no diretório da aplicação aula-01
+		// C:\Users\juran\Desktop\sts-bundle\workspace\aula-01 remote add origin https://github.com/sua url
+		//
+		//C:\Users\juran\Desktop\sts-bundle\workspace\java-aula01>git remote add origin https://github.com/jurandircampos/java-aula01
+		
+		//Sincronizar os arquivos / projeto
+		
+		//git pull origin master  -- nesse momento tenho os arquivos do servidor na minha máquina
+		
+		//agora preciso enviar para o servidor os arquivos que estão na minha máquina
+		
+		//git status -- status dos arquivos
+		//reparar que tem arquivos que não foram enviados no servidor ok
+		
+		//git add . -- prepara os arquivos para serem enviados ao servidor
+		
+		//git commit -m "Versão inicial STS - Aula 01"  -- preparar os arquivos para o servidor remoto(github)
+		
+		//git status -- Verificar que os dados estão ok - porém não foram aplicados ao servidor
+		
+		//git push origin master  --nesse momento os arquivos são sincronizados.
+		
+		//Agora é só atualizar a página do github que os arquivos estão todos atualizados.
+		
+		//Vamos fazer uma mudança no código fonte da página
+		
+         
+		//Mudança no projeto
+		//sysout (CTRL + Espaço) --System.out.println();
+		
+		System.out.println("Bem Vindo a primeira aula STS");
+		
+		//Rodando o projeto 
+		
+		//Vamos dar um git status no projeto e verificar se está tudo OK!
+		
+		//Repare que a linha que foi colocada aparece em vermelho no CMD(Prompt de comando)
+		
+		//git add .  --> para adicionar a linha nova
+		
+		//git status --> para verificar  que está tdo ok
+		
+		//git commit -m "Alteração no arquivo -- Bem Vindo a primeira aula STS"
+		
+		//git status --> verificar se está ok
+		
+		//git log   --> para verificar os commits
+		
+		//git push origin master 
+		
+		//Verificar se os arquivos estão no servidor remoto
+		
+		//===================================================
+		
+		//Se voce quiser clonar um projeto que está no github - fazer:
+		
+		//Copiar a url do projeto que você quer baixar
+		
+		//Ir até o diretorio da sua máquina onde ficará o arquivo e depois dar o comando no (CMD)
+		
+		//git clone https://github.com/url do seu projeto
